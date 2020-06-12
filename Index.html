@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" href="imagenes/favicon.ico">
+	<title>Farmacia Cupido - Inicio</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+
+<header>
+
+	<div class="menu_principal">
+	<div class="logo"> <img src="imagenes/Logo_Oficial_Cupido.png" width="180"></div>
+
+	<nav>
+		<ul>
+			<a href="Index.html"><img src="imagenes/inicio-icon.png" width="50"> Inicio</a>
+			<a href="Quienes_somos.html"><img src="imagenes/quienessomos-icon.png" width="50">  Quienes somos</a>
+			<a href="Servicios.html"><img src="imagenes/servicios-icon.png" width="50"> Servicios</a>
+			<a href="Ubicanos.html"><img src="imagenes/Ubicacion-icon.png" width="50"> Ubicanos</a>
+			<a href="Contactanos.html"><img src="imagenes/Contacto-icon.png" width="50"> Contacto</a>			
+		</ul>
+	</nav>
+	</div>
+</header>
+
+<body>
+
+
+
+	<Center><h1><Marquee behavior=alternate> "Farmacia Cupido" 24 hrs </Marquee></h1></Center>
+	
+
+	<div class="info-ext" id="abrir">
+	<a href="javascript:abrir()"> Informacion del COVID-19 </a>
+	</div>
+
+	<div class="externo" id="vent">
+		<div id="cerrar"> <a href="javascript:cerrar()"> <img src="imagenes/interfaz de cierre.png"> </a> </div>
+	<iframe src="https://coronavirus.gob.mx/noticias/" width="680" height="300"></iframe>
+	</div>
+	<br>
+	<!--<div class="main"></div>	
+	</div>-->
+
+	<div class="slider">
+		<ul>
+			<li><img src="imagenes/Fachada.jpeg"></li>
+			<li><img src="imagenes/Servicio-Medico.jpeg"></li>
+			<li><img src="imagenes/Servicio-Dental.jpeg"></li>
+			<li><img src="imagenes/Servicio-Nutri01.jpeg"></li>
+			<li><img src="imagenes/Servicio-Nutri02.jpeg"></li>
+			<li>
+			<a href="https://www.facebook.com/farcupido24"><img src="imagenes/cartel.jpg"></li></a>
+		</ul>
+	 </div>
+
+</body>
+
+
+<footer>
+	
+		Todos los derechos reservados por: <b><i>PTI Jose Francisco Renteria Zarate</b></i>, Cuernavaca, Morelos 2020 
+		 COFEPRIS: 143300201 B1447 | N° de Licencia Sanitaria: 09 011 09 0096    *AVISO DE PRIVACIDAD* |
+		 <a href="TerminosyCondiciones.html">Terminos y Condiciones</a>
+</footer>
+
+<script>
+	function abrir(){
+		document.getElementById("vent").style.display="block";
+	}
+	function cerrar(){
+		document.getElementById("vent").style.display="none";
+	}
+</script>
+
+</html>

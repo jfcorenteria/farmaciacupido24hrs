@@ -1,0 +1,275 @@
+*{margin:0; padding: 0;}
+
+body
+{
+	background:#fffffa;
+	background:url(../imagenes/Fondo_Oficial_Cupido.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+header
+{
+	background: #7ee25d;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.menu_principal
+{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+header .logo
+{
+	float: left;
+	line-height: 5px;
+	padding: 10px;
+}
+
+header nav
+{
+	float: right;
+	line-height: 100px;
+
+}
+
+header nav a
+{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 15px;
+	font-weight: bold;
+	-webkit-transition: all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease;
+}
+header nav a:hover
+{
+	/*background: #f56f3a;*/
+	background: #5d97e2;
+	border-radius: 50px;
+}
+
+h1{
+	color: #ffffff;
+}
+
+.main {
+	height: 800px;
+}
+.marco{
+	width: 89%;
+	margin: auto;
+	overflow: hidden;
+	margin-bottom: 20px;
+	float: center;
+	color: #ffffff;
+	background: #7ee25d;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	-webkit-transition: all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease;
+}
+img{
+	transition: all 0.5s linear;
+}
+img:hover{
+	transform: scale(0.9);
+	border-radius: 30px;
+}
+
+
+.info-ext
+{
+	width: 18%
+	margin: auto;
+	overflow: hidden;
+	margin-bottom: 20px;
+	float: center;
+	color: #ffffff;
+	background: #7ee25d;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	-webkit-transition: all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease;
+
+}
+.externo {
+	background:#7ee25d;
+	width: 51%;
+
+	/*background-position: center;*/
+
+	position: absolute;
+	left: 27%;
+	top: 27%;
+
+	padding: 10px;
+	min-height: 250px;
+	border-radius: 10px;
+	display: none;
+}
+#cerrar{
+	position: absolute;
+	width: 20%;
+	height: 15%;
+
+}
+
+/*.img1{
+	width: 25%;
+	height: 25%;
+	margin: auto;
+	display: block;
+	border-radius: 10%;
+	box-shadow: 10px 10px 10px #000;
+	padding: 10%;
+	border: 5px solid#000;
+}*/
+.img1{
+	display: inline ;
+	width: 180px;
+	height: 180px;
+	margin: auto;
+	padding: .5%;
+}
+.img2{
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	padding: .5%;
+}
+
+
+.slider{
+	width: 70%;
+	right: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul{
+	display: flex;
+	padding: 5;
+	width: 200%;
+	animation: cambio 10s infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in;
+}
+.slider li{
+	list-style: none;
+	width: 100%
+}
+.slider img{
+	width: 400px;
+	height: 400px;
+}
+@keyframes cambio{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	20%{margin-left: -50%}
+	40%{margin-left: -50%}
+
+	40%{margin-left: -100%}
+	60%{margin-left: -100%}
+
+	60%{margin-left: -150%}
+	80%{margin-left: -150%}
+
+	80%{margin-left: -200%}
+	100%{margin-left: -200%}
+}
+.container{
+	background: #EC7063;
+	width: 250px;
+}
+
+.container img{
+	width: 300px;
+	border-radius: 20%;
+}
+
+/*----------- CAJA ----------- */
+.caja { 
+font-family: Courier/* Century Gothic,CenturyGothic,AppleGothic,sans-serif*/; 
+color: #ffffff; 
+font-size: 16px; 
+font-weight: 400; 
+text-align: center; 
+background: #6f7fa6; 
+margin: 0 0 25px; 
+overflow: hidden; 
+padding: 10px; 
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #000000;
+}
+
+
+.formulario{
+	position: relative;
+	width: 500px;
+	height: 600px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color: #7ee25d;
+	border-radius: 20px;
+	margin: auto;
+}
+
+input[type=text],[type=correo]
+{
+	width: 470px;
+	height: 35px;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+}
+textarea{
+	width: 470px;
+	height: 110px;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+}
+input[type=submit] {
+	position: relative;
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	margin-left: 150px;
+	border: 0px;
+	background-color: #fff;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+}
+label{
+	margin: 11px 20px 0 0;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+footer{
+	display: inline-block;
+	background: #7ee25d;
+	color: #ffffff;
+	align-self: flex;
+	line-height: 2;
+	text-align: center;
+	width: 100%;
+}

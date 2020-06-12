@@ -1,0 +1,77 @@
+<!--<?php
+require 'formulario.php';
+?>
+<?php
+include ("formulario.php");
+?>-->
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf8"
+	<link rel="shortcut icon" href="imagenes/favicon.ico">
+	<title>Farmacia Cupido - Contactanos</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+
+<header>
+
+	<div class="menu_principal">
+	<div class="logo"> <img src="imagenes/Logo_Oficial_Cupido.png" width="180"></div>
+
+	<nav>
+		<ul>
+			<a href="Index.html"><img src="imagenes/inicio-icon.png" width="50"> Inicio</a>		
+		</ul>
+	</nav>
+</div>
+</header>
+
+<body>
+	
+	<div class="main">
+		<h1>Contactanos:</h1>
+	<div class="formulario">
+		<!--
+		<form action="formulario.php" method="POST">
+		-->
+		<form method="POST">
+			<p>Nombre</p>
+			<label for="Nombre">Colocar Nombre</label>
+			<input type="text" name="nombre:" placeholder="Nombre" required="">
+			<br>
+			<p>Correo</p>
+			<label for="Correo">Colocar Correo</label>
+			<br>
+			<input type="text" name="Correo:" placeholder="Correo" required/>
+			<p>Mensaje</p>
+			<label for="Mensaje">Mensaje</label>
+			<br>
+			<textarea name="Mensaje:" name="Mensaje" placeholder="Mensaje" required ></textarea>
+			<br>
+			<br>
+			<input type="submit" value="Enviar" />
+			</div>
+		</form>
+
+	<?php
+	include("registrar.php");
+	?>
+
+		
+	</div>
+
+</body>
+
+
+<footer>
+	
+		Todos los derechos reservados por: <b><i>PTI Jose Francisco Renteria Zarate</b></i>, Cuernavaca, Morelos 2020 
+		 COFEPRIS: 143300201 B1447 | N° de Licencia Sanitaria: 09 011 09 0096    *AVISO DE PRIVACIDAD* |
+		 <a href="TerminosyCondiciones.html">Terminos y Condiciones</a>
+</footer>
+
+</html>
