@@ -1,6 +1,6 @@
 <?php 
 
-/*<!--include("con_db.php");-->*/
+include("con_db.php");
 
 if (isset($_POST['Enviar'])) {
     if (strlen($_POST['Name']) >= 1 && strlen($_POST['Correo']) >= 1) {
